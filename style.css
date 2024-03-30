@@ -1,0 +1,56 @@
+.navigation{
+    background-color: #0a192f;
+    margin-bottom: 0;
+}
+.bt:hover{
+    background-color: #40a396;
+    color: #ccd6f6;
+}
+.bt{
+    color: #ccd6f6;
+}
+.intro{
+    background-color: #0a192f;
+    
+}
+.parts{
+    display: flex;
+    justify-content: space-around;
+}
+.marketing{
+    text-align: center;
+}
+@media (max-width: 300px){
+    .parts{
+        display: block;
+        width: auto;
+    }
+}
+.coder{
+    height: 300px;
+    width: 500px;
+}
+.me{
+    text-align: center;
+}
+.myself{
+    height: 200px;
+    width: 183px;
+    border-radius: 50%;
+}
+.marketing{
+    display: flex;
+    justify-content: space-around;
+}
+.reach-me{
+    text-align: center;
+}
+.contact-me{
+    display: flex;
+    justify-content: center;
+}
+.fchange{
+    font-family: "Noto sherif";
+    color: #40a396;
+    font-weight: bolder;
+}
